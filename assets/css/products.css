@@ -1,0 +1,94 @@
+:root{
+    --textColor:#DF4F61;
+}
+
+/* Products */
+.products{
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.products-item{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.list{
+    width: 15%;
+    margin: 20px;
+    overflow: hidden;
+    box-shadow: 6px 6px 5px 0px rgba(184,184,184,0.84);
+    -webkit-box-shadow: 6px 6px 5px 0px rgba(184,184,184,0.84);
+    -moz-box-shadow: 6px 6px 5px 0px rgba(184,184,184,0.84);
+}
+.list img{
+    width: 100%;
+    transition: transform .5s;
+}
+.list img:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.list a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+}
+/* end */
+
+/* Footer */
+footer{
+    margin: auto;
+    background-color: black;
+    padding: 40px;
+}
+.foot-top ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.foot-top a{
+    color: white;
+    text-decoration: none;
+}
+
+.foot-mid{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+.foot-mid i{
+    font-size: 32px;
+    margin: 20px 30px;
+    color: #F1F1F1;
+}
+
+.copyright{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.copyright img{
+    width: 20%;
+}
+.copyright h4{
+    color: #F1F1F1;
+    font-weight: 400;
+    word-spacing: 2px;
+}
+
+.foot-bot{
+    display: flex;
+    justify-content: center;
+}
+.foot-bot a{
+    text-decoration: none;
+    color: #F1F1F1;
+    margin: 30px 20px;
+}
+/* end */

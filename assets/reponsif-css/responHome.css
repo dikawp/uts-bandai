@@ -1,0 +1,236 @@
+@media screen and (max-width: 768px) {
+    #topper {
+        display: none;
+    }
+
+    .tagline h3{
+        font-size: 16px;
+        color: #353535;
+    }
+    
+    /* Hero */
+    #hero h1{
+        font-size: 42px;
+        margin: 0;
+    }
+    #hero p{
+        font-size: 20px;
+    }
+    .imgHero img{
+        width: 100%;
+    }
+    /* ------------- */
+
+    /* Hero 2 */
+    section{
+        margin: 0;
+        width: 100%;
+    }
+
+    .c-pb , .p-s{
+        width: inherit;
+    }
+
+    .card h2{
+        font-size: 20px;
+    }
+    /* ------------- */
+
+    #blog img{
+        width: 100%;
+        padding: 35px;
+    }
+
+    /* Video */
+    #video{
+        padding: 0;
+        margin-top: 62px;
+    }
+    #video .left video{
+        width: 100%;
+    }
+    #video .right h1{
+        font-size: 32px;
+        margin-bottom: 0;
+    }
+    #video .right h2{
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    #video .btnMore{
+        font-size: 18px;
+        text-transform: lowercase;
+        padding: 5px 15px;
+    }
+    /* ------------- */
+
+    /* News */
+    #news{
+        padding: 0px;
+    }
+    #news h2{
+        font-size: 32px;
+        padding: 20px 0px;
+        margin: 0;
+    }
+    #news h3{
+        font-size: 14px;
+        margin: 5px;
+    }
+    #news p{
+        font-size: 12px;
+    }
+
+    .card-news{
+        margin: 10px;
+    }
+
+    #news .more a{
+        font-size: 20px;
+        padding: 0px 20px 40px 0px;
+    }
+    /* ------------- */
+
+    /* Footer */
+    footer{
+        padding: 20px;
+    }
+    footer .foot-top ul{
+        font-size: 14px;
+        font-weight: 550;
+    }
+    
+    footer .foot-mid i{
+        font-size: 24px;
+    }
+    footer .copyright img{
+        width: 40%;
+    }
+
+    footer .foot-bot a{
+        font-size: 11px;
+        margin: 10px;
+    }
+}
+
+/* ####################################################### BREAK POINT ############################################################# */
+
+@media screen and (max-width: 450px) {
+    /* Top - Hero */
+    #topper{
+        display: none;
+    }
+    
+    #hero{
+        display: block;
+    }
+    #hero .textHero{
+        width: 100% !important;
+        margin: auto;
+        text-align: center;
+    }
+    #hero .textHero h1{
+        font-size: 40px;
+    }
+    #hero .textHero p{
+        font-size: 18px;
+        margin-bottom: 22px;
+    }
+    #hero .textHero a{
+        font-size: 18px;
+        padding: 10px 20px;
+    }
+
+    #hero .imgHero{
+        display: none;
+    }
+    /* End */
+
+    /* Hero 2 */
+     .logo img{
+        display: none;
+    }
+     .c-pb , .p-s{
+        display: block;
+    }
+     .card{
+        height: 20vh;
+        overflow: hidden;
+        margin: 0px 20px 20px;
+    }
+     .card h2{
+        text-align: center;
+    }
+    /* End */
+
+    /* Video */
+    #video{
+        display: block;
+    }
+    #video .left{
+        margin: auto;
+        width: 90%;
+    }
+    
+    #video .right{
+        margin: auto;
+        width: 90%;
+    }
+    #video .right h1{
+        display: none;
+    }
+    #video .right h2{
+        font-size: 18px;
+        margin: 20px;
+    }
+    /* End */
+
+    /* News */
+    #news h2{
+        font-size: 22px;
+    }
+    #news .card-news{
+        display: block;
+    }
+
+    #news .content-news{
+        margin: 20px;
+    }
+
+    #news .item-news{
+        width: 80%;
+        margin: auto;
+        padding-bottom: 20px;
+    }
+    #news .item-news h3{
+        display: none;
+    }
+
+    #news .more{
+        display: block;
+        margin: 0%;
+        text-align: end;
+    }
+    #news .more a{
+        padding: 0%;
+        margin-right: 20px;
+        font-size: 14px;
+    }
+    /* End */
+
+    /* Footer */
+    footer .foot-top ul{
+        display: none;
+    }
+
+    .foot-mid{
+        padding: 10px;
+    }
+
+    footer .foot-bot{
+        flex-direction: column;
+        text-align: center;
+    }
+    /* End */
+}

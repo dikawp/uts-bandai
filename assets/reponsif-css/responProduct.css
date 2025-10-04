@@ -1,0 +1,84 @@
+@media screen and (max-width: 768px) {
+    #topper {
+        display: none;
+    }
+
+    .products{
+        margin: 20px auto;
+    }
+
+    .products .list{
+        width: 25%;
+        margin: 5px;
+    }
+    .products .list p{
+        font-size: 14px;
+        font-weight: 550;
+        margin: 12px;
+    }
+
+    /* Footer */
+    footer{
+        padding: 20px;
+    }
+    footer .foot-top ul{
+        font-size: 14px;
+        font-weight: 550;
+    }
+    
+    footer .foot-mid i{
+        font-size: 24px;
+    }
+    footer .copyright img{
+        width: 40%;
+    }
+
+    footer .foot-bot a{
+        font-size: 11px;
+        margin: 10px;
+    }
+}
+
+/* ####################################################### BREAK POINT ############################################################# */
+
+@media screen and (max-width: 450px) {
+    /* Top */
+    #topper{
+        display: none;
+    }
+    /* End */
+
+    /* Products */
+    .products h1{
+        font-size: 22px;
+    }
+
+    hr{
+        margin-bottom: 50px;
+    }
+
+    .products-item{
+        display: block;
+    }
+    .products-item .list{
+        width: 50%;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    /* End */
+
+    /* Footer */
+    footer .foot-top ul{
+        display: none;
+    }
+
+    .foot-mid{
+        padding: 10px;
+    }
+
+    footer .foot-bot{
+        flex-direction: column;
+        text-align: center;
+    }
+    /* End */
+}
